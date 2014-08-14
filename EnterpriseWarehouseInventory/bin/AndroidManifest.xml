@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shoaibmansur.EnterpriseWarehouseInvertory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Holo"
+        android:label="@string/app_name">
+        
+
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- All Product Activity -->
+        <activity
+            android:name=".AllProductsActivity"
+            android:label="All Equipments" >
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name=".NewProductActivity"
+            android:label="Add New Equipment" >
+        </activity>
+        
+        <activity 
+            android:name=".SimpleListViewActivity"
+            android:label="List of Contacts">
+         </activity>
+        
+            <!-- Video Activity -->
+        <activity
+            android:name=".VideoplayerActivity"
+            android:label="Company Video" >
+        </activity>
+        
+         <!-- Search Activity -->
+        <activity
+            android:name=".SearchProductActivity"
+            android:label="Search an equipment" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".EditProductActivity"
+            android:label="Edit Equipment" >
+        </activity>
+        
+    </application>
+
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	
+    <!--  Sample Dashboard screen with Two buttons -->
+    <Button android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List Inventory"
+        android:layout_marginTop="25dip"/>
+    
+    <Button android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Equipment"
+        android:layout_marginTop="25dip"/>
+    
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Search" 
+        android:layout_marginTop="25dip"/>
+
+    <Button
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="Mail Work Order"
+                android:onClick="linkEmailClicked"
+                android:singleLine="true"
+                android:layout_marginTop="25dip"/>
+    
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Feedback" 
+        android:layout_marginTop="25dip"/>
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watch Company Ad" 
+        android:layout_marginTop="25dip"/>
+
+</LinearLayout>

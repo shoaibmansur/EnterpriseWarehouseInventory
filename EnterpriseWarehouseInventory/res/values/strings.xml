@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidConnectingToPhpMySQLActivity!</string>
+    <string name="app_name">Warehouse Inventory Tracking</string>
+    <string name="emailAddress">Warehouse@mobilink.net</string>
+    <string name="emailSubject">Work Order details</string>
+    <color name="white">#FFFFFF</color>
+
+</resources>
